@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Tahir Shafi">
+	<title>Tables</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 class="h-top">The order-collapse Property </h1>
+		<h1 class="h-top">The border-spacing Property</h1>
+		<h1 class="h-top">The caption-side Property </h1>
+		<h1 class="h-top">The empty-cells Property </h1>
+		<h1 class="h-top">The table-layout Property</h1>
+
+		<section class="section">
+			<h2 class="htwo">The order-collapse Property</h2>
+			<table class="collapse-one">
+				<caption>Collapse Border Example</caption>
+				<tr><td class="a"> Cell A Collapse Example</td></tr>
+				<tr><td class="b"> Cell B Collapse Example</td></tr>
+			</table>
+			<br />
+			<table class="collapse-two">
+			<caption>Separate Border Example</caption>
+			<tr><td class="a"> Cell A Separate Example</td></tr>
+			<tr><td class="b"> Cell B Separate Example</td></tr>
+			</table>
+		</section>
+
+		<section class="section">
+			<h2 class="htwo">The border-spacing Property</h2>
+			<table class="border-spacing-one" border="1">
+			<caption>Separate Border Example with border-spacing</caption>
+			<tr><td> Cell A Collapse Example</td></tr>
+			<tr><td> Cell B Collapse Example</td></tr>
+			
+			</table>
+			<br />
+			<table class="border-spacing-two" border="1">
+			<caption>Separate Border Example with border-spacing</caption>
+			<tr><td> Cell A Separate Example</td></tr>
+			<tr><td> Cell B Separate Example</td></tr>
+			</table>
+		</section>
+
+
+		<section class="section">
+			<h2 class="htwo">The caption-side Property</h2>
+			
+			<table style="width:400px; border:1px solid black;">
+			<caption class="cap-top">
+				This caption will appear at the top
+			</caption>
+				<tr><td > Cell A</td></tr>
+				<tr><td > Cell B</td></tr>
+			
+			</table>
+			<br />
+			<table style="width:400px; border:1px solid black;">
+
+			<caption class="cap-bottom">
+				This caption will appear at the bottom
+			</caption>
+				<tr><td > Cell A</td></tr>
+				<tr><td > Cell B</td></tr>
+			</table>
+			<br />
+			<table style="width:400px; border:1px solid black;">
+				<caption class="cap-left">
+					This caption will appear at the left
+				</caption>
+				<tr><td > Cell A</td></tr>
+				<tr><td > Cell B</td></tr>
+			</table>
+			<br />
+			<table style="width:400px; border:1px solid black;">
+				<caption class="cap-right">
+					This caption will appear at the right
+				</caption>
+				<tr><td > Cell A</td></tr>
+				<tr><td > Cell B</td></tr>
+			</table>
+		</section>
+
+		<section class="section">
+			<h2 class="htwo">The empty-cells Property</h2>
+			
+
+			<table class="empty">
+			<tr>
+			
+			<th></th>
+			<th>Title one</th>
+			<th>Title two</th>
+			</tr>
+			<tr>
+			<th>Row Title</th>
+			<td class="empty">value</td>
+			<td class="empty">value</td>
+			</tr>
+			<tr>
+			<th>Row Title</th>
+			<td class="empty">value</td>
+			<td class="empty"></td>
+			</tr>
+			</table>
+			
+		</section>
+
+		<section class="section">
+			<h2 class="htwo">The table-layout Property</h2>
+			<table class="auto" border="1" width="100%">
+			<tr>
+			<td width="20%">1000000000000000000000000000</td>
+			<td width="40%">10000000</td>
+			<td width="40%">100</td>
+			</tr>
+			</table>
+			<br />
+			<table class="fixed" border="1" width="100%">
+			<tr>
+			<td width="20%">1000000000000000000000000000</td>
+			<td width="40%">10000000</td>
+			<td width="40%">100</td>
+			</tr>
+			</table>
+
+			
+		</section>
+
+		
+	</div>
+
+</body>
+</html>

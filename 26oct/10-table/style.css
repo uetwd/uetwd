@@ -1,0 +1,92 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			font-family: Arial;
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.section{
+			padding: 50px 0px;
+		}
+		h1.h-top {
+		    color: #595959;
+		    background-color: #e6e6e6;
+		    padding: 12px 15px;
+		    border-left: 3px solid #292929;
+		    margin-bottom: 15px;
+		    letter-spacing: 1.2px;
+		}
+		.htwo {
+			    color: #9c27b0;
+			    background-color: #e6e6e6;
+			    padding: 12px 15px;
+			    border-left: 3px solid #9c27b0;
+			    margin-bottom: 15px;
+			    letter-spacing: 1.2px;
+		}
+
+		/*table one*/
+
+		table.collapse-one {border-collapse:collapse;}
+		table.collapse-two {border-collapse:separate;}
+		td.a {
+		border-style:dotted; border-width:3px; border-color:#000000; padding: 10px;
+		}
+		td.b {border-style:solid; border-width:3px; border-color:#333333;
+		padding:10px;
+		}
+
+		/*table two*/
+
+		/* If you provide one value */
+		
+		/*table.example {border-spacing:10px;}*/
+		/* This is how you can provide two values */
+		/*table.example {border-spacing:10px; 15px;}*/
+		
+		/*Now let's modify the previous example and see the effect:*/
+		
+		table.border-spacing-one {
+		border-collapse:separate;
+		width:400px;
+		border-spacing:10px;
+		}
+		table.border-spacing-two {
+		border-collapse:separate;
+		width:400px;
+		border-spacing:10px 50px;
+		}
+
+		/*table two*/
+
+		caption.cap-top {caption-side:top;}
+		caption.cap-bottom {caption-side:bottom;}
+		caption.cap-left {caption-side:left;}
+		caption.cap-right {caption-side:right;}
+
+		/*table three*/
+		table.empty{
+		width:350px;
+		border-collapse:separate;
+		empty-cells:hide;
+		}
+		td.empty{
+		padding:5px;
+		border-style:solid; border-width:1px; border-color:#999999;
+		}
+
+		/*table Four*/
+
+		table.auto
+		{
+		table-layout: auto
+		Tables *34+
+		}
+		table.fixed
+		{
+		table-layout: fixed
+		}
