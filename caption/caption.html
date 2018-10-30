@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style type="text/css">
+	.wrapper{
+		width: 100%;
+	    max-width: 1180px;
+	    height: auto;
+	    margin: 0 auto;
+	    overflow: hidden;
+	    background-color: #eee;
+	}
+	.sec{font-size: 24px; color: indigo; overflow: hidden;}
+
+	caption.top {caption-side:top} caption.bottom {caption-side:bottom}
+	caption.left {caption-side:left}
+	caption.right {caption-side:right}
+	.yellow{font-size: 24px; color: red; font-weight: bold; border-bottom: 3px solid #d1d1d1; }
+	</style>
+
+</head>
+<body>
+<div class="wrapper">
+	
+<table style="width:400px; border:1px solid black;">
+<caption class="top">
+This caption will appear at the top
+</caption>
+<tr><td > Cell A</td></tr>
+<tr><td > Cell B</td></tr>
+
+</table>
+<br />
+<table style="width:400px; border:1px solid black;">
+<caption class="bottom">
+This caption will appear at the bottom
+</caption>
+<tr><td > Cell A</td></tr>
+<tr><td > Cell B</td></tr>
+</table>
+<br />
+<table style="width:400px; border:1px solid black;">
+<caption class="left">
+This caption will appear at the left
+</caption>
+<tr><td > Cell A</td></tr>
+<tr><td > Cell B</td></tr>
+</table>
+<br />
+<table style="width:400px; border:1px solid black;">
+<caption class="right">
+This caption will appear at the right
+</caption>
+<tr><td > Cell A</td></tr>
+<tr><td > Cell B</td></tr>
+</table>
+
+<section class="sec">
+	<pre>
+	ValuesSection
+	<span class="yellow">top</span>
+	The caption box should be positioned above the table.
+
+	<span class="yellow">bottom</span>
+	The caption box should be positioned below the table.
+
+	<span class="yellow">left</span> 
+	The caption box should be positioned on the left side of the table.
+	This value was proposed for CSS 2, but removed from the final CSS 2.1 
+	specification. It is non-standard.
+
+	<span class="yellow">right</span> 
+	The caption box should be positioned on the right side of the table.
+	This value was proposed for CSS 2, but removed from the final CSS 
+	2.1 specification. It is non-standard.
+
+	<span class="yellow">top-outside</span> 
+	The caption box should be positioned above the table, while the 
+	width and horizontal alignment behavior are not bound 
+	to the table's horizontal layout.
+
+	The CSS 2.1 specification notes that the CSS 2 specification
+	 described a different behavior for the top value, which
+	 will be reintroduced by this value in a future specification.
+
+	<span class="yellow">bottom-outside</span> 
+	The caption box should be positioned below the table, while the 
+	width and horizontal alignment behavior are not bound to the
+	 table's horizontal layout.
+
+	The CSS 2.1 specification notes that the CSS 2 specification
+	described a different behavior for the bottom value, which 
+	will be reintroduced by this value in a future specification.
+	</pre>
+</section>
+</div>
+	
+</body>
+</html>
